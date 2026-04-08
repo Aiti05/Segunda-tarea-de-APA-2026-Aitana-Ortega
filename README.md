@@ -104,7 +104,6 @@ realce sintáctico en Python del mismo.
 ```python
 """
 Manejo de números primos.
-Nombre del alumno: Aitana Ortega Sánchez
 Tests unitarios incluidos en la documentación:
 
 >>> [ numero for numero in range(2, 50) if esPrimo(numero) ]
