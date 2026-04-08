@@ -104,6 +104,7 @@ realce sintáctico en Python del mismo.
 ```python
 """
 Manejo de números primos.
+Nombre del alumno: Aitana Ortega Sánchez
 Tests unitarios incluidos en la documentación:
 
 >>> [ numero for numero in range(2, 50) if esPrimo(numero) ]
@@ -131,7 +132,7 @@ Tests unitarios incluidos en la documentación:
 def esPrimo(numero):
     """
     Devuelve True si el argumento es primo, False en caso contrario.
-    El número debe ser un natural mayor que 1.
+    El número para ser True debe ser un natural mayor que 1.
     """
     if not isinstance(numero, int) or numero <= 1:
         raise TypeError("El argumento debe ser un número natural mayor que 1")
@@ -143,13 +144,13 @@ def esPrimo(numero):
 
 def primos(numero):
     """
-    Devuelve una tupla con todos los números primos menores que el argumento.
+    Devuelve una tupla con todos los números primos menores que al limite dado (el argumento).
     """
     return tuple(n for n in range(2, numero) if esPrimo(n))
 
 def descompon(numero):
     """
-    Devuelve una tupla con la descomposición en factores primos del argumento.
+    Devuelve una tupla con el calculo de la descomposición en factores primos del argumento.
     """
     factores = []
     d = 2
