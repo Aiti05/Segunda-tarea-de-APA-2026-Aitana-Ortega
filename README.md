@@ -101,7 +101,7 @@ Inserte a continuación una captura de pantalla que muestre el resultado de ejec
 
 Inserte a continuación el contenido del fichero `primos.py` usando los comandos necesarios para que se realice el
 realce sintáctico en Python del mismo.
-```
+```python
 """
 Manejo de números primos.
 Tests unitarios incluidos en la documentación:
